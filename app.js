@@ -88,7 +88,7 @@ phoneField.addEventListener("input", function () {
 
 // ==== PASSWORD VALIDATION =========
 
-let passwordRegex = /^\w{8}$/;
+let passwordRegex = /^[A-Za-z0-9]{8,}$/;
 
 let passwordField = document.querySelector(".password");
 
